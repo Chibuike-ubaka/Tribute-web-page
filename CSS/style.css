@@ -1,0 +1,87 @@
+#main {
+  --content-background: hsl(51, 40%, 96%);
+  --contrast-background: hsl(51, 40%, 87%);
+
+  margin: 0;
+  background-color: var(--content-background, rgba(139, 128, 91, 0.863));
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(204, 202, 198);
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  margin-top: 20px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}
+
+.italics {
+  font-style: italic;
+}
+
+#title {
+  text-align: center;
+}
+
+main {
+  margin-top: 50px;
+  background-color: var(--content-background, gray);
+}
+
+#main-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.image-edits {
+  width: 80%;
+  margin: 30px;
+}
+
+#Mandela-Quote {
+  text-align: center;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: rgb(204, 202, 198);
+  border-radius: 10px;
+}
+
+#footer-content {
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.text-content {
+  text-align: justify;
+}
+
+#tribute-link:hover {
+  color: hsl(220, 88%, 60%);
+}
+
+#tribute-link {
+  color: hsl(220, 57%, 42%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(220, 57%, 42%);
+}
+
+a:hover {
+  color: hsl(220, 88%, 60%);
+}
